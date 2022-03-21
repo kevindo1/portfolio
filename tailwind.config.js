@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        banner: "url('/public/assets/banner.jpg')",
+        banner: "url('/public/assets/banner.png')",
+        arrow: "url('/public/assets/arrow.png')",
       },
     },
   },
