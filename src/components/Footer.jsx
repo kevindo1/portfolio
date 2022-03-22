@@ -1,5 +1,5 @@
 import React from 'react';
-import PageTwo from '../views/PageTwo.jsx/PageTwo';
+import PageTwo from '../views/About/About';
 
 export default function Footer() {
   return (
