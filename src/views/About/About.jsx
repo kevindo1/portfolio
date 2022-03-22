@@ -4,15 +4,12 @@ import Footer from '../../components/Footer';
 export default function PageTwo() {
   return (
     <div className="snap-start bg-blue-500 h-screen w-screen flex flex-col">
-      <div className="text-white text-5xl mt-8 font-bold text-center w-full">
+      <div className="text-white text-4xl mt-8 font-bold text-center w-full text-shadow-xl">
         ABOUT ME
       </div>
-      <div className="mx-40">
-        <img
-          className="float-left h-56 w-56 mr-20"
-          src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
-        ></img>
-        <p className="text-white text-3xl mt-12">
+      <div className="mx-64">
+        <div className="float-left h-56 w-56 mr-8 bg-sky bg-center bg-cover"></div>
+        <p className="text-white text-3xl mt-12 text-shadow-md">
           I am a <span className="text-teal-200">life-long learner</span> and
           constantly <span className="text-teal-200">improve my skills</span>.
           In my free time, I can be found enjoying hobbies which include hiking,
@@ -21,12 +18,9 @@ export default function PageTwo() {
           the <span className="text-teal-200">user experience</span>.
         </p>
       </div>
-      <div className="mx-40 mb-8">
-        <img
-          className="float-right h-56 w-56 ml-20"
-          src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg"
-        ></img>
-        <p className="text-white text-3xl mt-12">
+      <div className="mx-64 mb-8">
+        <div className="float-right h-56 w-56 mt-6 bg-whitecoat bg-center bg-cover"></div>
+        <p className="text-white text-3xl mt-12 text-shadow-md">
           I have a unique background in pharmacy and neurobiology which
           instilled in me a{' '}
           <span className="text-teal-200">patient first mentality.</span> This
@@ -40,11 +34,11 @@ export default function PageTwo() {
           </span>{' '}
         </p>
       </div>
-      <div className="bg-cyan-900 h-full">
-        <div className="text-white text-4xl font-bold text-center w-full my-8">
+      <div className="bg-valley bg-stretch bg-center bg-no-repeat h-full mt-8">
+        <div className="text-white text-4xl font-bold text-center w-full my-8 text-shadow-xl">
           Tech Stack
         </div>
-        <div className="grid grid-cols-3 mx-40 text-center text-white text-2xl">
+        <div className="grid grid-cols-3 mx-40 text-center text-2xl text-white text-shadow-xl">
           <div>
             <ul>
               <li>JavaScript</li>
