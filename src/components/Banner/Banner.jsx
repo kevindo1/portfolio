@@ -5,7 +5,7 @@ export default function Banner() {
     <>
       <div>
         <div className="flex flex-col mt-40 ml-60">
-          <div className="text-7xl font-bold text-left text-white text-shadow-xl">
+          <div className="text-7xl font-bold text-left text-white text-shadow-lg">
             <p>
               Hello, I am <span className="text-teal-200">Kevin</span>,
             </p>
