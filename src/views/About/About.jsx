@@ -3,23 +3,25 @@ import Footer from '../../components/Footer';
 
 export default function About() {
   return (
-    <div className="snap-start h-screen w-screen flex flex-col">
-      <div className="bg-blue-500 text-white text-4xl pt-4 font-bold text-center w-full text-shadow-xl">
-        ABOUT ME
+    <div className="snap-start h-screen w-screen flex flex-col overflow-hidden">
+      <div className="bg-blue-500 text-white text-4xl font-bold text-center w-full text-shadow-xl">
+        <div className="pt-4">
+          <p>ABOUT ME</p>
+        </div>
         <div className="mx-64 mb-8">
           <div className="float-left h-56 w-56 mr-8 bg-sky bg-center bg-cover border-8 rounded-lg"></div>
           <p className="text-white text-3xl mt-12 text-shadow-md text-left">
             I am a <span className="text-teal-200">life-long learner</span> and
-            constantly <span className="text-teal-200">improve my skills</span>.
-            In my free time, I can be found enjoying hobbies which include
-            hiking, photography, and interior design. By utilizing my aesthetic
-            based hobbies, I strive to{' '}
-            <span className="text-teal-200">maximize</span> the{' '}
-            <span className="text-teal-200">user experience</span>.
+            I constantly{' '}
+            <span className="text-teal-200">improve my skills</span>. In my free
+            time, I can be found enjoying hobbies which include hiking,
+            photography, and interior design. By utilizing my aesthetic based
+            hobbies, I strive to <span className="text-teal-200">maximize</span>{' '}
+            the <span className="text-teal-200">user experience</span>.
           </p>
         </div>
-        <div className="mx-64 mb-8">
-          <div className="float-right h-56 w-56 bg-whitecoat bg-center bg-cover border-8 rounded-lg ml-6"></div>
+        <div className="mx-64 mb-12">
+          <div className="float-right h-56 w-56 bg-whitecoat bg-center bg-cover border-8 rounded-lg ml-8"></div>
           <p className="text-white text-3xl text-shadow-md text-right">
             I have a unique background in pharmacy and neurobiology which
             instilled in me a{' '}
@@ -60,7 +62,7 @@ export default function About() {
             </ul>
           </div>
         </div>
-        <div className="mt-12">
+        <div className="pt-24">
           <Footer />
         </div>
       </div>
