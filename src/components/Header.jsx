@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <div>
       <nav className="h-12 w-screen text-white text-2xl mt-8">
-        <div className="space-x-16 flex flex-row justify-center items-center">
+        <div className="space-x-16 flex flex-row justify-center items-center font-bold">
           <a
             href=""
             className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"

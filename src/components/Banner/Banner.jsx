@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <>
       <div>
-        <div className="px-40 py-36 z-10">
+        <div className="px-60 py-36 z-10">
           <div className="text-7xl font-bold text-left text-white text-shadow-xl">
             <p>
               Hello, I am <span className="text-teal-200">Kevin</span>,
