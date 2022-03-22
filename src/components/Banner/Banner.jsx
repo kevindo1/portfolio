@@ -29,9 +29,6 @@ export default function Banner() {
             </p>
           </div>
         </div>
-        <div>
-          <div className="bg-profile w-96 h-96 flex flex-row bg-no-repeat item-center"></div>
-        </div>
       </div>
     </>
   );
