@@ -5,21 +5,33 @@ export default function Header() {
     <div>
       <nav className="h-12 w-screen text-white text-2xl mt-8">
         <div className="space-x-16 flex flex-row justify-center items-center">
-          <a href="" className="hover:text-teal-300 text-shadow-md">
+          <a
+            href=""
+            className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
+          >
             ABOUT
           </a>
-          <a href="" className="hover:text-teal-300 text-shadow-md">
+          <a
+            href=""
+            className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
+          >
             PROJECTS
           </a>
-          <a href="" className="hover:text-teal-300 text-shadow-md">
+          <a
+            href=""
+            className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
+          >
             PHOTOGRAPHY
           </a>
-          <a href="" className="hover:text-teal-300 text-shadow-md">
+          <a
+            href=""
+            className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
+          >
             CONTACT
           </a>
           <a
             href="https://github.com/kevindo1"
-            className="hover:text-teal-300"
+            className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out"
             target="_blank"
           >
             <svg
@@ -37,7 +49,7 @@ export default function Header() {
           </a>
           <a
             href="https://www.linkedin.com/in/kdo/"
-            className="hover:text-teal-300"
+            className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out"
             target="_blank"
           >
             <svg
