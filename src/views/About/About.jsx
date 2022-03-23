@@ -5,19 +5,19 @@ export default function About() {
   return (
     <div className="snap-start h-screen w-screen flex flex-col overflow-hidden">
       <div className="bg-blue-500 text-white text-4xl font-bold text-center w-full text-shadow-xl">
-        <div className="pt-4">
+        <div className="pt-8">
           <p>ABOUT ME</p>
         </div>
         <div className="mx-64 mb-8">
           <div className="float-left h-56 w-56 mr-8 bg-sky bg-center bg-cover border-8 rounded-lg"></div>
           <p className="text-white text-3xl mt-12 text-shadow-md text-left">
-            I am a <span className="text-teal-200">life-long learner</span> and
+            I am a <span className="text-teal-300">life-long learner</span> and
             I constantly{' '}
-            <span className="text-teal-200">improve my skills</span>. In my free
+            <span className="text-teal-300">improve my skills</span>. In my free
             time, I can be found enjoying hobbies which include hiking,
             photography, and interior design. By utilizing my aesthetic based
-            hobbies, I strive to <span className="text-teal-200">maximize</span>{' '}
-            the <span className="text-teal-200">user experience</span>.
+            hobbies, I strive to <span className="text-teal-300">maximize</span>{' '}
+            the <span className="text-teal-300">user experience</span>.
           </p>
         </div>
         <div className="mx-64 mb-12">
@@ -25,13 +25,13 @@ export default function About() {
           <p className="text-white text-3xl text-shadow-md text-right">
             I have a unique background in pharmacy and neurobiology which
             instilled in me a{' '}
-            <span className="text-teal-200">patient first mentality.</span> This
+            <span className="text-teal-300">patient first mentality.</span> This
             translates in my projects as I keep in mind the user when developing
             products. A big reason I switched careers is because software
             engineering allows me to be a{' '}
-            <span className="text-teal-200">creative problem solver</span> yet
+            <span className="text-teal-300">creative problem solver</span> yet
             still able to{' '}
-            <span className="text-teal-200">
+            <span className="text-teal-300">
               make a difference in people's lives.
             </span>{' '}
           </p>

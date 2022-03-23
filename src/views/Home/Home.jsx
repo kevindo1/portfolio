@@ -7,7 +7,7 @@ export default function Home() {
     <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll">
       <PageOne />
       <About />
-      <div className="snap-start bg-cyan-900 h-screen w-screen flex justify-center items-center ">
+      <div className="snap-start bg-teal-500 h-screen w-screen flex justify-center items-center ">
         Page 3
       </div>
       <div className="snap-start bg-green-300 h-screen w-screen flex justify-center items-center ">

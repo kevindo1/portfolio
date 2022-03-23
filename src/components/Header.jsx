@@ -9,31 +9,31 @@ export default function Header() {
       <div className="space-x-16 flex flex-row justify-center items-center font-bold">
         <a
           href="/about"
-          className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
+          className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
         >
           ABOUT
         </a>
         <a
           href=""
-          className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
+          className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
         >
           PROJECTS
         </a>
         <a
           href=""
-          className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
+          className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
         >
           PHOTOGRAPHY
         </a>
         <a
           href=""
-          className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
+          className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
         >
           CONTACT
         </a>
         <a
           href="https://github.com/kevindo1"
-          className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out"
+          className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out"
           target="_blank"
         >
           <svg
@@ -51,7 +51,7 @@ export default function Header() {
         </a>
         <a
           href="https://www.linkedin.com/in/kdo/"
-          className="hover:text-teal-300 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out"
+          className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out"
           target="_blank"
         >
           <svg

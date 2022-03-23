@@ -1,12 +1,13 @@
 import React from 'react';
-import PageTwo from '../views/About/About';
 
 export default function Footer() {
   return (
-    <div>
-      <a href={PageTwo}>
-        <div className="bg-arrow h-20 w-full bg-no-repeat bg-center bg-contain animate-bounce"></div>
-      </a>
+    <div className="items-center justify-center align-middle flex">
+      <div className="w-20">
+        <a href="">
+          <div className="bg-arrow h-20 w-20 bg-no-repeat bg-center bg-contain animate-bounce"></div>
+        </a>
+      </div>
     </div>
   );
 }
