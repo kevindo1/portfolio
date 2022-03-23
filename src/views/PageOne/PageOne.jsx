@@ -10,17 +10,17 @@ export default function PageOne() {
         <div>
           <div className="h-3/4 bg-banner w-screen bg-center bg-cover">
             <div className="">
-              <div className="bg-profile w-96 h-96 flex flex-row bg-no-repeat bg-contain item-center float-right mt-40 mr-60"></div>
+              <div className="bg-profile w-96 h-96 flex flex-row bg-no-repeat bg-contain item-center float-right mt-12 mr-24"></div>
             </div>
             <div className="inline-block align-middle">
               <Banner />
             </div>
           </div>
-          <div className="bg-blue-500 h-1/4">
-            <div>
+          <div className="bg-sky-900 h-1/4">
+            <div className="">
               <Header />
             </div>
-            <div className="mt-24">
+            <div className="mt-16">
               <Footer />
             </div>
           </div>

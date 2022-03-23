@@ -3,8 +3,11 @@ import Footer from '../../components/Footer';
 
 export default function About() {
   return (
-    <div className="snap-start h-screen w-screen flex flex-col overflow-hidden">
-      <div className="bg-blue-500 text-white text-4xl font-bold text-center w-full text-shadow-xl">
+    <div
+      className="snap-start h-screen w-screen flex flex-col overflow-hidden"
+      id="about"
+    >
+      <div className="bg-sky-900 text-white text-4xl font-bold text-center w-full text-shadow-xl">
         <div className="pt-8">
           <p>ABOUT ME</p>
         </div>
@@ -13,7 +16,7 @@ export default function About() {
           <p className="text-white text-3xl mt-12 text-shadow-md text-left">
             I am a <span className="text-teal-300">life-long learner</span> and
             I constantly{' '}
-            <span className="text-teal-300">improve my skills</span>. In my free
+            <span className="text-teal-300">growing my skills</span>. In my free
             time, I can be found enjoying hobbies which include hiking,
             photography, and interior design. By utilizing my aesthetic based
             hobbies, I strive to <span className="text-teal-300">maximize</span>{' '}
@@ -32,18 +35,20 @@ export default function About() {
             <span className="text-teal-300">creative problem solver</span> yet
             still able to{' '}
             <span className="text-teal-300">
-              make a difference in people's lives.
-            </span>{' '}
+              make a difference in people's lives
+            </span>
+            .{' '}
           </p>
         </div>
       </div>
       <div className="bg-valley bg-cover bg-center bg-no-repeat h-full z-10">
         <div className="text-white text-4xl font-bold text-center w-full my-8 text-shadow-xl">
-          Tech Stack
+          TECH STACK
         </div>
-        <div className="grid grid-cols-3 mx-40 text-center text-2xl text-white text-shadow-xl">
+        <div className="grid grid-cols-5 mx-40 text-center text-2xl text-white text-shadow-xl">
           <div>
             <ul>
+              <li className="text-teal-300 font-bold">Languages</li>
               <li>JavaScript</li>
               <li>HTML</li>
               <li>CSS</li>
@@ -51,14 +56,35 @@ export default function About() {
           </div>
           <div>
             <ul>
+              <li className="text-teal-300 font-bold">Frameworks</li>
+              <li>React</li>
+              <li>Redux</li>
+              <li>Express</li>
+              <li>Node</li>
+              <li>jQuery</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li className="text-teal-300 font-bold">Testing</li>
+              <li>TDD</li>
+              <li>SuperTest</li>
+              <li>Jest</li>
+              <li>QUnitt</li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li className="text-teal-300 font-bold">Databases</li>
               <li>SupaBase</li>
               <li>PostgreSQL</li>
             </ul>
           </div>
           <div>
             <ul>
-              <li>SuperTest</li>
-              <li>Jest Test</li>
+              <li className="text-teal-300 font-bold">Learning</li>
+              <li>TypeScript</li>
+              <li>Storybook</li>
             </ul>
           </div>
         </div>

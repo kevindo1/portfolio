@@ -7,8 +7,10 @@ export default function Home() {
     <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll">
       <PageOne />
       <About />
-      <div className="snap-start bg-teal-500 h-screen w-screen flex justify-center items-center ">
-        Page 3
+      <div className="snap-start bg-teal-600 h-screen w-screen flex">
+        <div className="text-white text-4xl font-bold text-center w-full my-8 text-shadow-xl">
+          PROJECTS
+        </div>
       </div>
       <div className="snap-start bg-green-300 h-screen w-screen flex justify-center items-center ">
         Page 4
