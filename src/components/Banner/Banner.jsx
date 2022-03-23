@@ -4,8 +4,8 @@ export default function Banner() {
   return (
     <>
       <div>
-        <div className="flex flex-col mt-12 ml-24">
-          <div className="text-7xl font-bold text-left text-white text-shadow-lg">
+        <div>
+          <div className="text-8xl font-bold text-left text-white text-shadow-lg flex flex-col">
             <p>
               Hello, I am <span className="text-teal-400">Kevin</span>,
             </p>
@@ -14,7 +14,7 @@ export default function Banner() {
               <span className="text-teal-400">software engineer</span>
             </p>
           </div>
-          <div className="text-4xl font-bold my-4 text-white">
+          {/* <div className="text-4xl font-bold my-4 text-white">
             <p>
               I love to
               <span className="text-teal-400"> create</span>
@@ -27,7 +27,7 @@ export default function Banner() {
               {' '}
               the <span className="text-teal-400">forefront</span>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
