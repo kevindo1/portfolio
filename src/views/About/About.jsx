@@ -4,16 +4,16 @@ import Footer from '../../components/Footer';
 export default function About() {
   return (
     <div
-      className="snap-start h-screen w-screen flex flex-col overflow-hidden"
+      className="snap-start h-screen w-screen flex flex-col overflow-hidden bg-sky-900"
       id="about"
     >
-      <div className="bg-sky-900 text-white text-4xl font-bold text-center w-full text-shadow-xl">
-        <div className="pt-8">
+      <div className="text-white text-3xl font-bold text-center w-full text-shadow-xl mb-8">
+        <div className="pt-4">
           <p>ABOUT ME</p>
         </div>
-        <div className="mx-64 mb-8">
-          <div className="float-left h-56 w-56 mr-8 bg-sky bg-center bg-cover border-8 rounded-lg"></div>
-          <p className="text-white text-3xl mt-12 text-shadow-md text-left">
+        <div className="mx-32 mb-4">
+          <div className="float-left h-44 w-44 mr-8 bg-sky bg-center bg-cover border-8 rounded-lg"></div>
+          <p className="text-white text-xl mt-4 text-shadow-md text-left">
             I am a <span className="text-teal-300">life-long learner</span> and
             I constantly{' '}
             <span className="text-teal-300">growing my skills</span>. In my free
@@ -23,9 +23,9 @@ export default function About() {
             the <span className="text-teal-300">user experience</span>.
           </p>
         </div>
-        <div className="mx-64 mb-12">
-          <div className="float-right h-56 w-56 bg-whitecoat bg-center bg-cover border-8 rounded-lg ml-8"></div>
-          <p className="text-white text-3xl text-shadow-md text-right">
+        <div className="mx-32 mb-8">
+          <div className="float-right h-44 w-44 bg-whitecoat bg-center bg-cover border-8 rounded-lg ml-8"></div>
+          <p className="text-white text-xl text-shadow-md text-right pt-8">
             I have a unique background in pharmacy and neurobiology which
             instilled in me a{' '}
             <span className="text-teal-300">patient first mentality.</span> This
@@ -42,10 +42,10 @@ export default function About() {
         </div>
       </div>
       <div className="bg-valley bg-cover bg-center bg-no-repeat h-full z-10">
-        <div className="text-white text-4xl font-bold text-center w-full my-8 text-shadow-xl">
+        <div className="text-white text-2xl font-bold text-center w-full my-4 text-shadow-xl">
           TECH STACK
         </div>
-        <div className="grid grid-cols-5 mx-40 text-center text-2xl text-white text-shadow-xl">
+        <div className="grid grid-cols-5 mx-40 text-center text-xl text-white text-shadow-xl">
           <div>
             <ul>
               <li className="text-teal-300 font-bold">Languages</li>

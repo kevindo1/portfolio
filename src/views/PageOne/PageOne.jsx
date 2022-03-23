@@ -20,7 +20,7 @@ export default function PageOne() {
             <div className="">
               <Header />
             </div>
-            <div className="mt-16">
+            <div className="mt-12">
               <Footer />
             </div>
           </div>
