@@ -9,7 +9,7 @@ export default function PageOne() {
     <>
       <div className="snap-start h-screen w-screen flex">
         <div>
-          <div className="h-3/4 bg-banner w-screen bg-center bg-cover grid grid-cols-2">
+          <div className="h-3/4 bg-banner w-screen bg-center bg-cover grid grid-cols-3">
             <Banner />
             <ProfilePicture />
           </div>

@@ -4,10 +4,10 @@ import Footer from '../../components/Footer';
 export default function About() {
   return (
     <div
-      className="snap-start h-screen w-screen flex flex-col overflow-hidden bg-sky-900"
+      className="snap-start h-screen w-screen flex flex-col overflow-hidden "
       id="about"
     >
-      <div className="mr-20 my-6">
+      <div className="bg-sky-900 w-full h-3/5">
         <div className="float-right h-44 w-44 mr-8 bg-sky bg-center bg-cover border-8 rounded-lg mt-40 animate-pulse hover:animate-none"></div>
         <div className="float-right h-44 w-44 mr-8 bg-alaska bg-center bg-cover border-8 rounded-lg mt-24 animate-pulse hover:animate-none"></div>
         <div className="float-right h-44 w-44 mr-8 bg-whitecoat bg-center bg-cover border-8 rounded-lg animate-pulse hover:animate-none"></div>
@@ -54,7 +54,7 @@ export default function About() {
           </p>
         </div> */}
       </div>
-      <div className="bg-valley bg-cover bg-center bg-no-repeat h-full z-10">
+      <div className="bg-valley bg-cover bg-center bg-no-repeat h-2/5">
         <div className="grid grid-cols-5 mx-40 text-center text-2xl text-white text-shadow-xl mt-8">
           <div>
             <ul>
