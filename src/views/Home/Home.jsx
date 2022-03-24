@@ -5,7 +5,7 @@ import About from '../About/About';
 export default function Home() {
   return (
     <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll">
-      <PageOne />
+      {/* <PageOne /> */}
       <About />
       <div className="snap-start bg-teal-600 h-screen w-screen flex">
         <div className="text-white text-4xl font-bold text-center w-full my-8 text-shadow-xl">
