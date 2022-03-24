@@ -10,7 +10,7 @@ module.exports = {
         sky: "url('/public/assets/sky.png')",
         mountain: "url('/public/assets/mountain.jpg')",
         bridge: "url('/public/assets/bridge.png')",
-        alaska: "url('/public/assets/alaska.png')",
+        alaska: "url('/public/assets/alaska.jpeg')",
         reflection: "url('/public/assets/reflection.png')",
         valley: "url('/public/assets/valley.png')",
       },
@@ -27,20 +27,20 @@ module.exports = {
         },
         pulse: {
           '0%': {
-            opacity: '.3',
+            opacity: '1',
           },
           '100%': {
-            opacity: '.3',
+            opacity: '1',
           },
           '50%': {
-            opacity: '1',
+            opacity: '.3',
           },
         },
       },
       animation: {
         bounce: 'bounce 2.2s infinite',
         'fade-in-down': 'fade-in-down 4s ease-out',
-        pulse: 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;',
+        pulse: 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) 3;',
       },
     },
   },
