@@ -3,31 +3,23 @@ import React from 'react';
 export default function Banner() {
   return (
     <>
-      <div>
-        <div>
-          <div className="text-8xl font-bold text-left text-white text-shadow-lg flex flex-col">
+      <div className="grid grid-cols-3">
+        <div className="mt-20 ml-20 col-span-2 flex flex-col">
+          <div className="text-8xl font-bold text-left text-white text-shadow-lg">
             <p>
-              Hello, I am <span className="text-teal-400">Kevin</span>,
+              Hello, I am{' '}
+              <span className="text-teal-400 animate-pulse2">Kevin</span>,
             </p>
             <p>a full-stack</p>
             <p>
-              <span className="text-teal-400">software engineer</span>
+              <span className="text-teal-400 animate-pulse2">
+                software engineer
+              </span>
             </p>
           </div>
-          {/* <div className="text-4xl font-bold my-4 text-white">
-            <p>
-              I love to
-              <span className="text-teal-400"> create</span>
-            </p>
-            <p>elegant apps</p>
-            <p>
-              that put the <span className="text-teal-400">users</span> at
-            </p>
-            <p>
-              {' '}
-              the <span className="text-teal-400">forefront</span>
-            </p>
-          </div> */}
+        </div>
+        <div className="mt-12 mr-20">
+          <div className="bg-profile w-96 h-96 bg-no-repeat bg-contain item-center mx-auto my-auto flex"></div>
         </div>
       </div>
     </>

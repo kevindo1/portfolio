@@ -7,32 +7,22 @@ export default function About() {
       className="snap-start h-screen w-screen flex flex-col overflow-hidden bg-sky-900"
       id="about"
     >
-      <div>
-        <div>
-          {/* <p className="text-white text-4xl font-bold text-center w-full text-shadow-xl mb-2 pt-4">
-            ABOUT ME
-          </p> */}
-          <p className="text-white text-2xl font-bold text-center w-full text-shadow-xl pt-12">
-            Hover over the images to learn more about my journey
+      <div className="mr-20 my-6">
+        <div className="float-right h-44 w-44 mr-8 bg-sky bg-center bg-cover border-8 rounded-lg mt-40 animate-pulse hover:animate-none"></div>
+        <div className="float-right h-44 w-44 mr-8 bg-alaska bg-center bg-cover border-8 rounded-lg mt-24 animate-pulse hover:animate-none"></div>
+        <div className="float-right h-44 w-44 mr-8 bg-whitecoat bg-center bg-cover border-8 rounded-lg animate-pulse hover:animate-none"></div>
+        <div className="text-6xl font-bold mb-8 text-white ml-40 animate-fade-in-down">
+          <p>I love to create</p>
+          <p>
+            <span className="text-teal-400">elegant</span> apps
           </p>
-        </div>
-        <div className="mr-20">
-          <div className="float-right h-44 w-44 mr-8 bg-sky bg-center bg-cover border-8 rounded-lg mt-40"></div>
-          <div className="float-right h-44 w-44 mr-8 bg-alaska bg-center bg-cover border-8 rounded-lg mt-24"></div>
-          <div className="float-right h-44 w-44 mr-8 bg-whitecoat bg-center bg-cover border-8 rounded-lg"></div>
-          <div className="text-8xl font-bold mt-8 mb-20 text-white ml-40">
-            <p>I love to create</p>
-            <p>
-              <span className="text-teal-400">elegant</span> apps
-            </p>
-            <p>
-              that put the <span className="text-teal-400">users</span> at
-            </p>
-            <p>
-              {' '}
-              the <span className="text-teal-400">forefront</span>
-            </p>
-          </div>
+          <p>
+            that put the <span className="text-teal-400">users</span> at
+          </p>
+          <p>
+            {' '}
+            the <span className="text-teal-400">forefront</span>
+          </p>
         </div>
 
         {/* <div className="mx-32 mb-4">
@@ -65,10 +55,7 @@ export default function About() {
         </div> */}
       </div>
       <div className="bg-valley bg-cover bg-center bg-no-repeat h-full z-10">
-        <div className="text-white text-3xl font-bold text-center w-full my-4 text-shadow-xl">
-          TECH STACK
-        </div>
-        <div className="grid grid-cols-5 mx-40 text-center text-2xl text-white text-shadow-xl">
+        <div className="grid grid-cols-5 mx-40 text-center text-2xl text-white text-shadow-xl mt-8">
           <div>
             <ul>
               <li className="text-teal-300 font-bold">Languages</li>

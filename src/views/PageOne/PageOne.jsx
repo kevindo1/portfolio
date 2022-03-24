@@ -9,9 +9,6 @@ export default function PageOne() {
       <div className="snap-start h-screen w-screen flex">
         <div>
           <div className="h-3/4 bg-banner w-screen bg-center bg-cover">
-            <div className="">
-              <div className="bg-profile w-96 h-96 flex flex-row bg-no-repeat bg-contain item-center float-right mt-12 mr-24"></div>
-            </div>
             <div className="inline-block align-middle">
               <Banner />
             </div>
