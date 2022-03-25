@@ -9,9 +9,9 @@ export default function About() {
     >
       <div className="bg-sky-900 w-full h-3/5">
         <div className="my-auto mr-20 mt-20 float-right">
-          <div className="float-right h-48 w-48 bg-sky bg-center bg-cover border-8 rounded-lg mt-40 animate-pulse"></div>
-          <div className="float-right h-48 w-48 mr-12 bg-alaska bg-center bg-cover border-8 rounded-lg mt-24 animate-pulse"></div>
-          <div className="float-right h-48 w-48 mr-12 bg-whitecoat bg-center bg-cover border-8 rounded-lg animate-pulse"></div>
+          <div className="float-right h-48 w-48 bg-sky bg-center bg-cover border-8 rounded-lg mt-40 animate-pulse hover:scale-110"></div>
+          <div className="float-right h-48 w-48 mr-12 bg-alaska bg-center bg-cover border-8 rounded-lg mt-24 animate-pulse hover:scale-110"></div>
+          <div className="float-right h-48 w-48 mr-12 bg-whitecoat bg-center bg-cover border-8 rounded-lg animate-pulse hover:scale-110"></div>
         </div>
         <div className="text-8xl font-bold mb-8 text-white ml-20 animate-fade-in-down flex flex-col justify-center mt-16">
           <p>I love to create</p>

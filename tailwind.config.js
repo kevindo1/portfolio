@@ -20,6 +20,7 @@ module.exports = {
         pr: "url('/public/photography/pr.jpeg')",
         ut: "url('/public/photography/ut.jpeg')",
         wa: "url('/public/photography/wa.jpeg')",
+        goodjob: "url('/public/assets/goodjob.gif')",
       },
       keyframes: {
         'fade-in-down': {
