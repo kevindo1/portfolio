@@ -15,9 +15,6 @@ export default function Home() {
       <div className="snap-start bg-green-300 h-screen w-screen flex justify-center items-center ">
         Page 4
       </div>
-      <div className="snap-start bg-yellow-300 h-screen w-screen flex justify-center items-center ">
-        Page 5
-      </div>
     </div>
   );
 }

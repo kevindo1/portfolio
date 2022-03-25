@@ -15,8 +15,26 @@ export default function Projects2() {
           <h1 className="text-white text-3xl text-center w-full my-4 text-shadow-lg">
             React | Tailwind | SupaBase | Netlify | Jest Testing
           </h1>
+          <div className="flex flex-row">
+            <a
+              className="text-teal-300 text-3xl text-center w-full my-4 text-shadow-lg"
+              href="https://github.com/Yah-food/Yahfood-final"
+            >
+              Github
+            </a>
+            <p className="text-white text-3xl text-center w-full my-4 mx-8">
+              ||
+            </p>
+            <a
+              className="text-teal-300 text-3xl w-full my-4 text-shadow-lg"
+              href="https://hopeful-curie-14d366.netlify.app/"
+            >
+              Website
+            </a>
+          </div>
           <p className="text-white text-2xl text-center w-1/2 mt-4 mb-8 text-shadow-md align-middle justify-center">
-            Yahfood is an application that{' '}
+            Yahfood is a <span className="text-teal-300">mobile</span>{' '}
+            application that{' '}
             <span className="text-teal-300">
               allows users to discover new foods to make based on their current
               ingredients
@@ -26,16 +44,6 @@ export default function Projects2() {
             with <span className="text-teal-300">user authentication</span>, the
             user will be lead to their profile page. The user will then be able
             to create, edit, and delete recipes.
-          </p>
-          <p className="text-white text-2xl text-center w-1/2 mt-4 mb-8 text-shadow-md align-middle justify-center">
-            To learn more about the technical details, please click{' '}
-            <a
-              className="text-teal-300"
-              href="https://github.com/Yah-food/Yahfood-final"
-              target="_blank"
-            >
-              here
-            </a>
           </p>
         </div>
         <a

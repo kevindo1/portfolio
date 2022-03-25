@@ -18,26 +18,31 @@ export default function Projects() {
           <div className="flex flex-row">
             <a
               className="text-teal-300 text-3xl text-center w-full my-4 text-shadow-lg"
-              href=""
+              href="https://github.com/alchemy-job-app/job-app"
             >
               Github
             </a>
+            <p className="text-white text-3xl text-center w-full my-4 mx-8">
+              ||
+            </p>
             <a
-              className="text-teal-300 text-3xl text-center w-full my-4 text-shadow-lg"
+              className="text-teal-300 text-3xl w-full my-4 text-shadow-lg"
               href="https://goodjob.dev/"
             >
-              Deployed Site
+              Website
             </a>
           </div>
           <p className="text-white text-2xl text-center w-1/2 mt-4 mb-8 text-shadow-md align-middle justify-center">
             GoodJob.dev is an application with{' '}
             <span className="text-teal-300">user authentication</span> that
-            allows the users to sign up, log in, and organize their job
-            applications with a welcoming and user-friendly UI. It is meant to
-            be a central location to help the user throughout the job
-            application process by giving the user{' '}
+            allows the users to sign up, log in,{' '}
+            <span className="text-teal-300">
+              organize and track their job applications
+            </span>
+            . It is meant to be a central location to help the user throughout
+            the job application process by giving the user{' '}
             <span className="text-teal-300">CRUD functionality</span> by adding,
-            viewing, editing, deleting their application tracking.
+            viewing, editing, deleting their tracked applications.
           </p>
         </div>
         <a
