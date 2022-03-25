@@ -9,7 +9,7 @@ export default function Photography() {
         <Header />
       </div>
       <div className="h-5/6 w-screen items-center justify-center align-middle  grid grid-cols-7 opacity-90 group">
-        <div className="h-full bg-ak bg-cover bg-no-repeat hover:h-screen hover:col-span-8 group">
+        <div className="h-full bg-ak bg-cover bg-no-repeat hover:h-screen hover:col-span-8 group amination">
           <h1 className="text-white font-bold align-middle justify-center text-8xl text-shadow-xl flex group-hover:hidden">
             AK
           </h1>
