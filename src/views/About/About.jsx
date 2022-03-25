@@ -4,7 +4,7 @@ import Footer from '../../components/Footer';
 export default function About() {
   return (
     <div
-      className="snap-start h-screen w-screen flex flex-col overflow-hidden "
+      className="snap-start h-screen w-screen flex flex-col overflow-hidden"
       id="about"
     >
       <div className="bg-sky-900 w-full h-3/5">

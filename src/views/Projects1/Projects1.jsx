@@ -15,6 +15,20 @@ export default function Projects() {
           <h1 className="text-white text-3xl text-center w-full my-4 text-shadow-lg">
             React | Tailwind | SupaBase | Netlify | PostgreSQL | Jest Testing
           </h1>
+          <div className="flex flex-row">
+            <a
+              className="text-teal-300 text-3xl text-center w-full my-4 text-shadow-lg"
+              href=""
+            >
+              Github
+            </a>
+            <a
+              className="text-teal-300 text-3xl text-center w-full my-4 text-shadow-lg"
+              href="https://goodjob.dev/"
+            >
+              Deployed Site
+            </a>
+          </div>
           <p className="text-white text-2xl text-center w-1/2 mt-4 mb-8 text-shadow-md align-middle justify-center">
             GoodJob.dev is an application with{' '}
             <span className="text-teal-300">user authentication</span> that
@@ -24,16 +38,6 @@ export default function Projects() {
             application process by giving the user{' '}
             <span className="text-teal-300">CRUD functionality</span> by adding,
             viewing, editing, deleting their application tracking.
-          </p>
-          <p className="text-white text-2xl text-center w-1/2 mt-4 mb-8 text-shadow-md align-middle justify-center">
-            To learn more about the technical details, please click{' '}
-            <a
-              className="text-teal-300"
-              href="https://github.com/alchemy-job-app/job-app"
-              target="_blank"
-            >
-              here
-            </a>
           </p>
         </div>
         <a

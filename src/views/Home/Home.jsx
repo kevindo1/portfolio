@@ -2,6 +2,7 @@ import React from 'react';
 import PageOne from '../PageOne/PageOne';
 import About from '../About/About';
 import Projects1 from '../Projects1/Projects1';
+import Projects2 from '../Projects2/Projects2';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <PageOne />
       <About />
       <Projects1 />
+      <Projects2 />
 
       <div className="snap-start bg-green-300 h-screen w-screen flex justify-center items-center ">
         Page 4
