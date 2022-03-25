@@ -4,7 +4,9 @@ import Header from '../../components/Header';
 export default function Photography() {
   return (
     <div className="bg-sky-900 h-screen w-screen">
-      <a href="/">back</a>
+      <a href="/" className="text-white font-bold">
+        back
+      </a>
       <div className="mb-12">
         <Header />
       </div>

@@ -21,6 +21,7 @@ module.exports = {
         ut: "url('/public/photography/ut.jpeg')",
         wa: "url('/public/photography/wa.jpeg')",
         goodjob: "url('/public/assets/goodjob.gif')",
+        project1: "url('/public/assets/project1.png')",
       },
       keyframes: {
         'fade-in-down': {

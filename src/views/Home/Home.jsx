@@ -1,14 +1,14 @@
 import React from 'react';
 import PageOne from '../PageOne/PageOne';
 import About from '../About/About';
-import Projects from '../Projects/Projects';
+import Projects1 from '../Projects1/Projects1';
 
 export default function Home() {
   return (
     <div className="snap-y snap-mandatory h-screen w-screen overflow-scroll">
       <PageOne />
       <About />
-      <Projects />
+      <Projects1 />
 
       <div className="snap-start bg-green-300 h-screen w-screen flex justify-center items-center ">
         Page 4
