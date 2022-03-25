@@ -3,6 +3,7 @@ import styles from './App.module.css'; /* CSS Modules */
 import Home from './views/Home/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import About from './views/About/About';
+import Photography from './views/Photography/Photography';
 
 export default function App() {
   return (
@@ -13,6 +14,9 @@ export default function App() {
         </Route>
         <Route exact path="/about">
           <About />
+        </Route>
+        <Route exact path="/photography">
+          <Photography />
         </Route>
       </Switch>
     </Router>

@@ -13,6 +13,13 @@ module.exports = {
         alaska: "url('/public/assets/alaska.jpeg')",
         reflection: "url('/public/assets/reflection.png')",
         valley: "url('/public/assets/valley.png')",
+        ak: "url('/public/photography/ak.jpeg')",
+        az: "url('/public/photography/az.jpeg')",
+        co: "url('/public/photography/co.jpeg')",
+        hi: "url('/public/photography/hi.jpeg')",
+        pr: "url('/public/photography/pr.jpeg')",
+        ut: "url('/public/photography/ut.jpeg')",
+        wa: "url('/public/photography/wa.jpeg')",
       },
       keyframes: {
         'fade-in-down': {
@@ -40,7 +47,7 @@ module.exports = {
       animation: {
         bounce: 'bounce 2.2s infinite',
         'fade-in-down': 'fade-in-down 4s ease-out',
-        pulse: 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) 3;',
+        pulse: 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) 5;',
       },
     },
   },

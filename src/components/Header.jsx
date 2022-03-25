@@ -20,7 +20,7 @@ export default function Header() {
           PROJECTS
         </a>
         <a
-          href=""
+          href="/photography"
           className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
         >
           PHOTOGRAPHY

@@ -9,9 +9,9 @@ export default function About() {
     >
       <div className="bg-sky-900 w-full h-3/5">
         <div className="my-auto mr-20 mt-20 float-right">
-          <div className="float-right h-48 w-48 bg-sky bg-center bg-cover border-8 rounded-lg mt-40 animate-pulse hover:animate-none"></div>
-          <div className="float-right h-48 w-48 mr-12 bg-alaska bg-center bg-cover border-8 rounded-lg mt-24 animate-pulse hover:animate-none"></div>
-          <div className="float-right h-48 w-48 mr-12 bg-whitecoat bg-center bg-cover border-8 rounded-lg animate-pulse hover:animate-none"></div>
+          <div className="float-right h-48 w-48 bg-sky bg-center bg-cover border-8 rounded-lg mt-40 animate-pulse"></div>
+          <div className="float-right h-48 w-48 mr-12 bg-alaska bg-center bg-cover border-8 rounded-lg mt-24 animate-pulse"></div>
+          <div className="float-right h-48 w-48 mr-12 bg-whitecoat bg-center bg-cover border-8 rounded-lg animate-pulse"></div>
         </div>
         <div className="text-8xl font-bold mb-8 text-white ml-20 animate-fade-in-down flex flex-col justify-center mt-16">
           <p>I love to create</p>
@@ -31,7 +31,9 @@ export default function About() {
         <div className="grid grid-cols-5 mx-40 text-center text-3xl text-white text-shadow-xl mt-8">
           <div>
             <ul>
-              <li className="text-teal-300 font-bold">Languages</li>
+              <li className="text-teal-300 font-bold text-4xl mb-4">
+                Languages
+              </li>
               <li>JavaScript</li>
               <li>HTML</li>
               <li>CSS</li>
@@ -39,7 +41,9 @@ export default function About() {
           </div>
           <div>
             <ul>
-              <li className="text-teal-300 font-bold">Frameworks</li>
+              <li className="text-teal-300 font-bold text-4xl mb-4">
+                Frameworks
+              </li>
               <li>React</li>
               <li>Redux</li>
               <li>Express</li>
@@ -49,7 +53,7 @@ export default function About() {
           </div>
           <div>
             <ul>
-              <li className="text-teal-300 font-bold">Testing</li>
+              <li className="text-teal-300 font-bold text-4xl mb-4">Testing</li>
               <li>TDD</li>
               <li>SuperTest</li>
               <li>Jest</li>
@@ -58,14 +62,18 @@ export default function About() {
           </div>
           <div>
             <ul>
-              <li className="text-teal-300 font-bold">Databases</li>
+              <li className="text-teal-300 font-bold text-4xl mb-4">
+                Databases
+              </li>
               <li>SupaBase</li>
               <li>PostgreSQL</li>
             </ul>
           </div>
           <div>
             <ul>
-              <li className="text-teal-300 font-bold">Learning</li>
+              <li className="text-teal-300 font-bold text-4xl mb-4">
+                Learning
+              </li>
               <li>TypeScript</li>
               <li>Storybook</li>
             </ul>
