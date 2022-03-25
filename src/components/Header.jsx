@@ -4,6 +4,10 @@ import { useHistory } from 'react-router-dom';
 export default function Header() {
   const history = useHistory();
 
+  const handleClick = () => {
+    history.push('/photography');
+  };
+
   return (
     <nav className="h-12 w-screen text-white text-2xl pt-8">
       <div className="space-x-16 flex flex-row justify-center items-center font-bold">
@@ -19,12 +23,12 @@ export default function Header() {
         >
           PROJECTS
         </a>
-        <a
-          href="/photography"
-          className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
+        <button
+          onClick={handleClick}
+          className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md font-bold"
         >
           PHOTOGRAPHY
-        </a>
+        </button>
         <a
           href=""
           className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
