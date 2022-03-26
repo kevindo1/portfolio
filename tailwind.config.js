@@ -13,6 +13,7 @@ module.exports = {
         alaska: "url('/public/assets/alaska.jpeg')",
         reflection: "url('/public/assets/reflection.png')",
         valley: "url('/public/assets/valley.png')",
+        road: "url('/public/assets/road.png')",
         ak: "url('/public/photography/ak.jpeg')",
         az: "url('/public/photography/az.jpeg')",
         co: "url('/public/photography/co.jpeg')",
