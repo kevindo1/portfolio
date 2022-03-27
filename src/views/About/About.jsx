@@ -28,7 +28,7 @@ export default function About() {
         </div>
       </div>
       <div className="bg-valley bg-cover bg-center bg-no-repeat h-2/5">
-        <div className="grid grid-cols-5 mx-40 text-center text-2xl text-white text-shadow-xl mt-8">
+        <div className="grid grid-cols-5 mx-40 text-center text-xl text-white text-shadow-xl mt-8">
           <div>
             <ul>
               <li className="text-teal-300 font-bold text-3xl mb-4">
