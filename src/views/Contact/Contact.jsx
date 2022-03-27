@@ -7,10 +7,8 @@ export default function Contact() {
       id="about"
     >
       <div className="bg-sky-900 w-full h-3/4"></div>
-      <div className="bg-road bg-center bg-cover w-full h-1/4">
-        <h3 className="text-white text-3xl font-bold flex justify-center items-center align-middle">
-          © Copyright Kevin Do 2022
-        </h3>
+      <div className="bg-road bg-center bg-cover w-full h-1/4 text-slate-300 text-3xl font-bold flex justify-center items-center align-middle">
+        © Copyright Kevin Do 2022
       </div>
     </div>
   );
