@@ -7,24 +7,30 @@ export default function About() {
       className="snap-start h-screen w-screen flex flex-col overflow-hidden"
       id="about"
     >
-      <div className="bg-sky-900 w-full h-3/5">
-        <div className="my-auto mr-20 mt-12 float-right">
-          <div className="float-right h-36 w-36 bg-sky bg-center bg-cover border-8 rounded-lg mt-32 animate-pulse hover:scale-110 transition-all"></div>
-          <div className="float-right h-36 w-36 mr-12 bg-alaska bg-center bg-cover border-8 rounded-lg mt-16 animate-pulse hover:scale-110 transition-all"></div>
-          <div className="float-right h-36 w-36 mr-12 bg-whitecoat bg-center bg-cover border-8 rounded-lg animate-pulse hover:scale-110 transition-all"></div>
+      <div className="bg-sky-900 w-full h-3/5 grid grid-cols-2">
+        <div className="xl:text-8xl lg:text-5xl font-bold text-white animate-fade-in-down flex flex-col justify-center">
+          <div className="align-center justify-center align-middle flex flex-col ml-12">
+            <div className="items-center">
+              <p>I love to create</p>
+              <p>
+                <span className="text-teal-400">elegant</span> apps
+              </p>
+              <p>
+                that put the <span className="text-teal-400">users</span> at
+              </p>
+              <p>
+                {' '}
+                the <span className="text-teal-400">forefront</span>
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="xl:text-6xl lg:text-4xl font-bold text-white ml-20 animate-fade-in-down flex-col justify-center mt-16">
-          <p>I love to create</p>
-          <p>
-            <span className="text-teal-400">elegant</span> apps
-          </p>
-          <p>
-            that put the <span className="text-teal-400">users</span> at
-          </p>
-          <p>
-            {' '}
-            the <span className="text-teal-400">forefront</span>
-          </p>
+        <div className="align-center justify-center align-middle w-full h-full">
+          <div className="items-center justify-center align-middle mt-20 mr-12">
+            <div className="float-right h-36 w-36 lg:h-56 lg:w-56 bg-sky bg-center bg-cover border-8 rounded-lg mt-32 animate-pulse hover:scale-110 transition-all"></div>
+            <div className="float-right h-36 w-36 lg:h-56 lg:w-56 mr-12 bg-alaska bg-center bg-cover border-8 rounded-lg mt-16 animate-pulse hover:scale-110 transition-all"></div>
+            <div className="float-right h-36 w-36 lg:h-56 lg:w-56 mr-12 bg-whitecoat bg-center bg-cover border-8 rounded-lg animate-pulse hover:scale-110 transition-all"></div>
+          </div>
         </div>
       </div>
       <div className="bg-valley bg-cover bg-center bg-no-repeat h-2/5">
@@ -71,7 +77,7 @@ export default function About() {
           </div>
           <div>
             <ul>
-              <li className="text-teal-300 font-bold text-4xl mb-4">
+              <li className="text-teal-300 font-bold text-3xl mb-4">
                 Learning
               </li>
               <li>TypeScript</li>

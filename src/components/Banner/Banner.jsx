@@ -9,7 +9,7 @@ export default function Banner() {
         </p>
         <p>a full-stack</p>
         <p>
-          <span className="text-teal-400">software engineer</span>
+          <span className="text-teal-400">software developer</span>
         </p>
       </div>
     </div>
