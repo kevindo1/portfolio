@@ -12,13 +12,13 @@ export default function Header() {
     <nav className="h-12 w-screen text-white sm:text-2xl pt-8">
       <div className="sm:space-x-16 space-x-2 flex flex-row justify-center items-center font-bold">
         <a
-          href="/about"
+          href="#about"
           className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
         >
           ABOUT
         </a>
         <a
-          href=""
+          href="#projects"
           className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
         >
           PROJECTS
@@ -30,7 +30,7 @@ export default function Header() {
           PHOTOGRAPHY
         </button>
         <a
-          href=""
+          href="#contact"
           className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
         >
           CONTACT

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Projects() {
   return (
-    <div className="bg-sky-800">
+    <div className="bg-sky-800" id="projects">
       <div className="snap-start bg-project1 bg-center bg-cover bg-opacity-20 h-screen w-screen flex flex-col">
         <div className="flex flex-col align-middle justify-center items-center">
           <a

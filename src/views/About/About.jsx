@@ -7,7 +7,7 @@ export default function About() {
       className="snap-start h-screen w-screen flex flex-col overflow-hidden"
       id="about"
     >
-      <div className="bg-sky-900 w-full h-3/5 grid grid-cols-2">
+      <div className="bg-sky-900 w-full h-3/5 grid grid-cols-2" id="about">
         <div className="xl:text-8xl lg:text-5xl font-bold text-white animate-fade-in-down flex flex-col justify-center">
           <div className="align-center justify-center align-middle flex flex-col ml-12">
             <div className="items-center">
