@@ -23,8 +23,10 @@ module.exports = {
         wa: "url('/public/photography/wa.jpeg')",
         goodjob: "url('/public/assets/goodjob.gif')",
         yahfood: "url('/public/assets/yahfood.gif')",
+        yearbook: "url('/public/assets/yearbook.gif')",
         project1: "url('/public/assets/project1.png')",
         project2: "url('/public/assets/project2.png')",
+        project3: "url('/public/assets/project3.png')",
       },
       keyframes: {
         'fade-in-down': {

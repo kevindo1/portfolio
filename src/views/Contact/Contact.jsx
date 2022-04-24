@@ -9,12 +9,12 @@ export default function Contact() {
       <div className="bg-sky-900 w-full h-3/4 text-white text-lg">
         <a
           href="/"
-          className="flex justify-center items-center align-middle mb-16 hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out"
+          className="flex justify-center items-center align-middle mb-16 mt-4 hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out"
         >
           Back to the top
         </a>
         <p className="flex justify-center items-center font-bold text-2xl">
-          Thank you for taking your time to visit my portfolio!
+          Thank you for visiting my portfolio!
         </p>
         <br></br>
         <p className="flex justify-center items-center font-bold text-2xl">
