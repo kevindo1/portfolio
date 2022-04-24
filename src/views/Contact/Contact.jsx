@@ -29,7 +29,7 @@ export default function Contact() {
           </a>
         </span>
 
-        <p className="flex justify-center items-center font-bold text-2xl mb-6">
+        <p className="flex justify-center items-center font-bold text-xl mb-6">
           Feel free to connect with me using the links below:
         </p>
         <div className="flex justify-center items-center align-middle">
