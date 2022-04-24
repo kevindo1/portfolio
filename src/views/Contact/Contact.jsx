@@ -6,18 +6,31 @@ export default function Contact() {
       className="snap-start h-screen w-screen flex flex-col overflow-hidden"
       id="contact"
     >
-      <div className="bg-sky-900 w-full h-3/4 text-white font-bold text-xl">
-        <a href="/" className="flex justify-center items-center align-middle">
+      <div className="bg-sky-900 w-full h-3/4 text-white text-lg">
+        <a
+          href="/"
+          className="flex justify-center items-center align-middle mb-16 hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out"
+        >
           Back to the top
         </a>
-        <p className="flex justify-center items-center">
+        <p className="flex justify-center items-center font-bold text-2xl">
           Thank you for taking your time to visit my portfolio!
         </p>
-        <p className="flex justify-center items-center">
-          If you have not already, please check out my photography page
-          <span className="text-teal-400">
-            <a href="/photography">here</a>
-          </span>
+        <br></br>
+        <p className="flex justify-center items-center font-bold text-2xl">
+          If you have not yet already, please check out my
+        </p>
+        <span>
+          <a
+            href="/photography"
+            className="text-teal-400 hover:text-teal-500 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out flex justify-center items-center font-bold text-2xl mb-16"
+          >
+            photography page
+          </a>
+        </span>
+
+        <p className="flex justify-center items-center font-bold text-2xl mb-6">
+          Feel free to connect with me using the links below:
         </p>
         <div className="flex justify-center items-center align-middle">
           <a
@@ -26,7 +39,7 @@ export default function Contact() {
             target="_blank"
           >
             <svg
-              className="w-24 h-24"
+              className="w-24 h-24 mr-12"
               aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 24 24"
@@ -50,6 +63,20 @@ export default function Contact() {
               viewBox="0 0 448 512"
             >
               <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+            </svg>
+          </a>
+          <a
+            href="mailto: kevind0501@gmail.com"
+            className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out"
+            target="_blank"
+          >
+            <svg
+              className="w-24 h-24 ml-12"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z" />
             </svg>
           </a>
         </div>
