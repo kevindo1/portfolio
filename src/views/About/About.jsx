@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../components/Footer';
 
 export default function About() {
   return (
@@ -8,7 +7,7 @@ export default function About() {
       id="about"
     >
       <div className="bg-sky-900 w-full h-3/5 grid grid-cols-2" id="about">
-        <div className="xl:text-8xl lg:text-5xl font-bold text-white animate-fade-in-down flex flex-col justify-center">
+        <div className="xl:text-7xl lg:text-5xl font-bold text-white animate-fade-in-down flex flex-col py-auto my-auto">
           <div className="align-center justify-center align-middle flex flex-col ml-12">
             <div className="items-center">
               <p>I love to create</p>
@@ -16,7 +15,7 @@ export default function About() {
                 <span className="text-teal-400">elegant</span> apps
               </p>
               <p>
-                that put the <span className="text-teal-400">users</span> at
+                that puts <span className="text-teal-400">users</span> at
               </p>
               <p>
                 {' '}
@@ -27,9 +26,9 @@ export default function About() {
         </div>
         <div className="align-center justify-center align-middle w-full h-full">
           <div className="items-center justify-center align-middle mt-20 mr-12">
-            <div className="float-right h-36 w-36 lg:h-56 lg:w-56 bg-sky bg-center bg-cover border-8 rounded-lg mt-32 animate-pulse hover:scale-110 transition-all"></div>
-            <div className="float-right h-36 w-36 lg:h-56 lg:w-56 mr-12 bg-alaska bg-center bg-cover border-8 rounded-lg mt-16 animate-pulse hover:scale-110 transition-all"></div>
-            <div className="float-right h-36 w-36 lg:h-56 lg:w-56 mr-12 bg-whitecoat bg-center bg-cover border-8 rounded-lg animate-pulse hover:scale-110 transition-all"></div>
+            <div className="float-right h-36 w-36 lg:h-36 lg:w-36 bg-sky bg-center bg-cover border-8 rounded-lg mt-16 animate-pulse hover:scale-110 transition-all"></div>
+            <div className="float-right h-36 w-36 lg:h-36 lg:w-36 mr-12 bg-alaska bg-center bg-cover border-8 rounded-lg mt-8 animate-pulse hover:scale-110 transition-all"></div>
+            <div className="float-right h-36 w-36 lg:h-36 lg:w-36 mr-12 bg-whitecoat bg-center bg-cover border-8 rounded-lg animate-pulse hover:scale-110 transition-all"></div>
           </div>
         </div>
       </div>
