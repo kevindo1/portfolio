@@ -6,13 +6,22 @@ export default function Contact() {
       className="snap-start h-screen w-screen flex flex-col overflow-hidden"
       id="contact"
     >
-      <div className="bg-sky-900 w-full h-3/4 text-white font-bold text-4xl">
+      <div className="bg-sky-900 w-full h-3/4 text-white font-bold text-xl">
         <a
           href="#home"
           className="flex justify-center items-center align-middle"
         >
           Back to the top
         </a>
+        <p className="flex justify-center items-center">
+          Thank you for taking your time to visit my portfolio!
+        </p>
+        <p className="flex justify-center items-center">
+          If you have not already, please check out my photography page
+          <span className="text-teal-400">
+            <a href="/photography">here</a>
+          </span>
+        </p>
         <div className="flex justify-center items-center align-middle">
           <a
             href="https://github.com/kevindo1"
@@ -20,7 +29,7 @@ export default function Contact() {
             target="_blank"
           >
             <svg
-              className="w-36 h-36"
+              className="w-24 h-24"
               aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 24 24"
@@ -38,7 +47,7 @@ export default function Contact() {
             target="_blank"
           >
             <svg
-              className="w-36 h-36"
+              className="w-24 h-24"
               aria-hidden="true"
               fill="currentColor"
               viewBox="0 0 448 512"
