@@ -18,7 +18,7 @@ export default function Contact() {
         </p>
         <br></br>
         <p className="flex justify-center items-center font-bold text-2xl">
-          If you have not yet already, please check out my
+          If you have not already, please check out my
         </p>
         <span>
           <a
