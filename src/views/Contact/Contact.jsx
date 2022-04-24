@@ -7,10 +7,7 @@ export default function Contact() {
       id="contact"
     >
       <div className="bg-sky-900 w-full h-3/4 text-white font-bold text-xl">
-        <a
-          href="#home"
-          className="flex justify-center items-center align-middle"
-        >
+        <a href="/" className="flex justify-center items-center align-middle">
           Back to the top
         </a>
         <p className="flex justify-center items-center">
