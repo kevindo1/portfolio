@@ -4,12 +4,16 @@ import Header from '../../components/Header';
 export default function Photography() {
   return (
     <div className="bg-sky-900 h-screen w-screen">
-      <a href="/" className="text-white">
-        back
-      </a>
-      <div className="mb-12">
-        <Header />
-      </div>
+      <nav className="h-12 w-screen text-white sm:text-2xl pt-2">
+        <div className="sm:space-x-16 space-x-2 flex flex-row justify-center items-center font-bold">
+          <a
+            href="/"
+            className="hover:text-teal-400 hover:-translate-1 hover:scale-110 transition delay-150 ease-in-out text-shadow-md"
+          >
+            Back to home
+          </a>
+        </div>
+      </nav>
       <div className="h-5/6 w-screen items-center justify-center align-middle  grid grid-cols-7 opacity-90 group">
         <div className="h-full bg-ak bg-cover bg-no-repeat hover:h-screen hover:col-span-8 group amination">
           <h1 className="text-white font-bold align-middle justify-center text-8xl text-shadow-xl flex group-hover:hidden">
