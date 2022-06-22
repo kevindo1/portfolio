@@ -40,6 +40,7 @@ export default function About() {
                 Languages
               </li>
               <li>JavaScript</li>
+              <li>TypeScript</li>
               <li>HTML</li>
               <li>CSS</li>
             </ul>
@@ -79,7 +80,6 @@ export default function About() {
               <li className="text-teal-300 font-bold text-3xl mb-4">
                 Learning
               </li>
-              <li>TypeScript</li>
               <li>Storybook</li>
             </ul>
           </div>
